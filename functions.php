@@ -50,6 +50,12 @@ require_once( 'library/responsive-images.php' );
 /** FETCH EXTRA CUSTOM FUNCTIONS BY TOM HERMANS */
 require_once( 'library/extra.php');
 
+/** ADD CPT TO FUNCTIONS */
+// require_once( 'library/cpt.php' );
+
+/** Add Shortcode functions */
+require_once( 'library/shortcodes.php' );
+
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/protocol-relative-theme-assets.php' );
