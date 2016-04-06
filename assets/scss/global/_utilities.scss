@@ -1,0 +1,100 @@
+h1,h2,h3,h4,h5,h6, .menu-item {
+  text-transform: uppercase;
+}
+
+
+// Prettify type rendering
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+// Extend basic typographic styling
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
+  font-style: $header-font-style;
+  // color: $header-font-color;
+  text-rendering: $header-text-rendering;
+  // margin-top: $header-top-margin;
+  // margin-bottom: $header-bottom-margin;
+  // line-height: $header-line-height;
+  text-transform: uppercase;
+}
+
+// Reset margin and padding on figure element
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+// Add some basic styling for figcaption element
+figcaption {
+  margin-bottom: rem-calc(20);
+  margin-top: rem-calc(10);
+  color: #6f6f6f;
+}
+
+// Add the alignment classes used by the WordPress media library
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textcenter {
+  text-align: center;
+}
+.full-width {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+blockquote.alignleft,
+img.alignleft {
+  margin: rem-calc(7) rem-calc(24) rem-calc(7) 0;
+}
+
+.wp-caption.alignleft {
+  margin: rem-calc(7) rem-calc(14) rem-calc(7) 0;
+}
+
+blockquote.alignright,
+img.alignright {
+  margin: rem-calc(7) 0 rem-calc(7) rem-calc(24);
+}
+
+.invisible {
+  clear: both;
+  visibility: hidden;
+}
+hr.invisible {
+  background:none;
+  clear:both;
+  float:none;
+  width:100%;
+  height:1px;
+  border:none;
+  margin:-1px 0;
+}
+
+.svgshadow {
+  // -webkit-filter: drop-shadow( 30px 30px 2px rgba(0,0,0,1) );
+  // filter: drop-shadow( 30px 30px 2px rgba(0,0,0,1) );
+}
+
+.top-margin-2 {
+  margin-top: 3em;
+}
