@@ -14,6 +14,9 @@
  * @since FoundationPress 1.0.0
  */
 
+/** Keep WP constants somewhere handy */
+require_once( 'library/constants.php' );
+
 /** Various clean up functions */
 require_once( 'library/cleanup.php' );
 
