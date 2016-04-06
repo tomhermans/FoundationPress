@@ -1,3 +1,5 @@
+# FoundationPress fork by tomhermans.com with added functions and styles I tend to use a lot.
+
 # FoundationPress [![Build Status](https://travis-ci.org/olefredrik/FoundationPress.svg?branch=master)](https://travis-ci.org/olefredrik/FoundationPress)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/olefredrik/foundationpress?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
